@@ -1,0 +1,18 @@
+var list = document.querySelector('#list'),
+    item = document.querySelector('#item');
+
+document.querySelector('#btn').addEventListener('click', function(ev){
+	var text = item.value;
+	if(text !== ''){
+	list.innerHTML += '<li class="toDoItems">' +text+ '</li>';
+	item.value = '';
+    }
+	ev.preventDefault();
+
+}, false);	
+
+
+
+
+
+

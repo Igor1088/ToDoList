@@ -1,0 +1,14 @@
+.container{
+	background-color: #ccc;
+	height: auto;
+	width: 300px;
+	margin: auto;
+	padding: 35px;
+}
+#btn{
+	
+}
+#list{
+	list-style: none;
+}
+
