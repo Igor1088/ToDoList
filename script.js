@@ -4,7 +4,7 @@ var list = document.querySelector('#list'),
 document.querySelector('#btn').addEventListener('click', function(ev){
 	var text = item.value;
 	if(text !== ''){
-	list.innerHTML += '<li class="toDoItems"> <button onclick="remove()">X</button>  ' +text+ '</li>';
+	list.innerHTML += '<li class="toDoItems"> <button id="btnDel" onclick="remove()">X</button>  ' +text+ '</li>';
 	item.value = '';
     }
 	ev.preventDefault();
