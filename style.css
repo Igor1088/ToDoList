@@ -1,13 +1,16 @@
 body{
 	font-size: 15px;
 	font-family: sans-serif;
+	background: url(https://static.pexels.com/photos/6471/woman-hand-smartphone-desk-large.jpg) no-repeat;
+        background-size: cover;
+        
 }
 
 
 .container{
 	background-color: #D6D6D6;
 	height: auto;
-	width: 300px;
+	width: 320px;
 	margin: auto;
 	padding: 25px;
 	
@@ -22,7 +25,7 @@ h1{
 
 
 form{
-	width: 260px;
+	width: 300px;
 	background: #2D5C6B;
 	color: #fff;
 	border-radius: 6px;
